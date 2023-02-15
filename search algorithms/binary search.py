@@ -13,7 +13,7 @@ class BinarySearch:
             else:
                 return self.search(entry,mid+1,high)
         return -1
-    
+
     def display(self):
         low = 0
         high = len(self.mylist)-1
